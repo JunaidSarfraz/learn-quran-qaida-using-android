@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/hhaa_khara_zair"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/hhaa_zair"
+            android:layout_below="@+id/hhaa_zair"
+            android:contentDescription="hhaa_khara_zair"
+            android:onClick="play"
+            android:text="ھٖ" />
+
+        <Button
+            android:id="@+id/hhaa_khara_zabar"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hhaa_zabar"
+            android:layout_toRightOf="@+id/hhaa"
+            android:contentDescription="hhaa_khara_zabar"
+            android:onClick="play"
+            android:text="ھٰ" />
+
+        <Button
+            android:id="@+id/hhaa_ulta_pesh"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hhaa_khara_zair"
+            android:layout_alignBottom="@+id/hhaa_khara_zair"
+            android:layout_alignLeft="@+id/hhaa_pesh"
+            android:contentDescription="hhaa_ulta_pesh"
+            android:onClick="play"
+            android:text="ھٗ" />
+
+        <Button
+            android:id="@+id/hhaa_do_zair"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/hhaa_khara_zair"
+            android:layout_below="@+id/hhaa_khara_zair"
+            android:contentDescription="hhaa_do_zair"
+            android:onClick="play"
+            android:text="ھٍ" />
+
+        <Button
+            android:id="@+id/haa"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hhaa"
+            android:layout_alignBottom="@+id/hhaa"
+            android:layout_toRightOf="@+id/haa_ulta_pesh"
+            android:contentDescription="haa"
+            android:onClick="play"
+            android:text="ح" />
+
+        <Button
+            android:id="@+id/haa_pesh"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/haa_ulta_pesh"
+            android:layout_toLeftOf="@+id/haa"
+            android:contentDescription="haa_pesh"
+            android:onClick="play"
+            android:text="حُ" />
+
+        <Button
+            android:id="@+id/haa_zair"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/haa_ulta_pesh"
+            android:layout_toRightOf="@+id/haa_ulta_pesh"
+            android:contentDescription="haa_zair"
+            android:onClick="play"
+            android:text="حِ" />
+
+        <Button
+            android:id="@+id/haa_zabar"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/haa_ulta_pesh"
+            android:layout_toRightOf="@+id/haa_zair"
+            android:contentDescription="haa_zabar"
+            android:onClick="play"
+            android:text="حَ" />
+
+        <Button
+            android:id="@+id/haa_do_pesh"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hhaa_do_zair"
+            android:layout_alignBottom="@+id/hhaa_do_zair"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="79dp"
+            android:contentDescription="haa_do_pesh"
+            android:onClick="play"
+            android:text="حُٗ" />
+
+        <Button
+            android:id="@+id/haa_ulta_pesh"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/haa_do_pesh"
+            android:layout_alignLeft="@+id/haa_do_pesh"
+            android:contentDescription="haa_ulta_pesh"
+            android:onClick="play"
+            android:text="حٗ" />
+
+        <Button
+            android:id="@+id/hhaa_do_pesh"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hhaa_do_zair"
+            android:layout_alignBottom="@+id/hhaa_do_zair"
+            android:layout_toLeftOf="@+id/hhaa_do_zair"
+            android:contentDescription="hhaa_do_pesh"
+            android:onClick="play"
+            android:text="ھُٗ" />
+
+        <Button
+            android:id="@+id/hhaa_zabar"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/hhaa"
+            android:layout_marginRight="89dp"
+            android:contentDescription="hhaa_zabar"
+            android:onClick="play"
+            android:text="ھَ" />
+
+        <Button
+            android:id="@+id/hhaa_zair"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hhaa"
+            android:layout_toLeftOf="@+id/hhaa_zabar"
+            android:contentDescription="hhaa_zair"
+            android:onClick="play"
+            android:text="ھِ" />
+
+        <Button
+            android:id="@+id/hhaa"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="34dp"
+            android:layout_toRightOf="@+id/hhaa_pesh"
+            android:contentDescription="hhaa"
+            android:onClick="play"
+            android:text="ھ" />
+
+        <Button
+            android:id="@+id/hhaa_pesh"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hhaa"
+            android:layout_toLeftOf="@+id/hhaa_zair"
+            android:contentDescription="hhaa_pesh"
+            android:onClick="play"
+            android:text="ھُ" />
+
+        <Button
+            android:id="@+id/haa_khara_zabar"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/haa_do_pesh"
+            android:layout_alignLeft="@+id/haa_zabar"
+            android:contentDescription="haa_khara_zabar"
+            android:onClick="play"
+            android:text="حٰ" />
+
+        <Button
+            android:id="@+id/haa_do_zabar"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/haa_do_pesh"
+            android:layout_alignBottom="@+id/haa_do_pesh"
+            android:layout_alignLeft="@+id/haa_khara_zabar"
+            android:contentDescription="haa_do_zabar"
+            android:onClick="play"
+            android:text="حً" />
+
+        <Button
+            android:id="@+id/hhaa_do_zabar"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hhaa_do_zair"
+            android:layout_alignBottom="@+id/hhaa_do_zair"
+            android:layout_alignLeft="@+id/hhaa_khara_zabar"
+            android:contentDescription="hhaa_do_zabar"
+            android:onClick="play"
+            android:text="ھً" />
+
+        <Button
+            android:id="@+id/haa_khara_zair"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/haa_do_zabar"
+            android:layout_toLeftOf="@+id/haa_khara_zabar"
+            android:contentDescription="haa_khara_zair"
+            android:onClick="play"
+            android:text="حٖ" />
+
+        <Button
+            android:id="@+id/haa_do_zair"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/haa_khara_zabar"
+            android:layout_toLeftOf="@+id/haa_khara_zabar"
+            android:contentDescription="haa_do_zair"
+            android:onClick="play"
+            android:text="حٍ" />
+
+    </RelativeLayout>
+</LinearLayout>

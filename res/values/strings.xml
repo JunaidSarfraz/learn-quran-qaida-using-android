@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LearnQuran</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Splash_txt">Exit Splash</string>
+    <string name="lbl_Lessons">Exit Splash</string>
+
+</resources>

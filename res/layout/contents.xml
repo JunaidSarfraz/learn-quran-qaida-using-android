@@ -1,0 +1,353 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/haa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="Haa"
+                android:text="ح" 
+                android:onClick="play" />
+
+            <Button
+                android:id="@+id/jeem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="jeem"
+                android:text="ج" 
+                android:onClick="play"/>
+
+            <Button
+                android:id="@+id/caa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="caa"
+                android:text="ث" 
+                android:onClick="play"/>
+
+            <Button
+                android:id="@+id/taa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="taa"
+                android:text="ت" 
+                android:onClick="play"/>
+
+            <Button
+                android:id="@+id/baa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="baa"
+                android:text="ب" 
+                android:onClick="play"/>
+
+            <Button
+                android:id="@+id/alif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="alif"
+                android:onClick="play"
+                android:text="ا" 
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/seen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="seen"
+                android:onClick="play"
+                android:text="س" />
+
+            <Button
+                android:id="@+id/zaa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="zaa"
+                android:onClick="play"
+                android:text="ز" />
+
+            <Button
+                android:id="@+id/raa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="raa"
+                android:onClick="play"
+                android:text="ر" />
+
+            <Button
+                android:id="@+id/zaal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="zaal"
+                android:onClick="play"
+                android:text="ذ" />
+
+            <Button
+                android:id="@+id/daal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="daal"
+                android:onClick="play"
+                android:text="د" />
+
+            <Button
+                android:id="@+id/khaa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="khaa"
+                android:onClick="play"
+                android:text="خ" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/aein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="aein"
+                android:onClick="play"
+                android:text="ع" />
+
+            <Button
+                android:id="@+id/zuaa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="zaa"
+                android:onClick="zuaa"
+                android:text="ظ" />
+
+            <Button
+                android:id="@+id/tuaa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="tuaa"
+                android:onClick="play"
+                android:text="ط" />
+
+            <Button
+                android:id="@+id/zuad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+               	android:contentDescription="zuad"
+                android:onClick="play"
+                android:text="ض" />
+
+            <Button
+                android:id="@+id/suad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="suad"
+                android:onClick="play"
+                android:text="ص" />
+
+            <Button
+                android:id="@+id/sheen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="sheen"
+                android:onClick="play"
+                android:text="ش" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/meem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="meem"
+                android:onClick="play"
+                android:text="م" />
+
+            <Button
+                android:id="@+id/laam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="laam"
+                android:onClick="play"
+                android:text="ل" />
+
+            <Button
+                android:id="@+id/kaaf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="kaaf"
+                android:onClick="play"
+                android:text="ک" />
+
+            <Button
+                android:id="@+id/quaaf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="quaaf"
+                android:onClick="play"
+                android:text="ق" />
+
+            <Button
+                android:id="@+id/faa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="faa"
+                android:onClick="play"
+                android:text="ف" />
+
+            <Button
+                android:id="@+id/ghain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="ghain"
+                android:onClick="play"
+                android:text="غ" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/yaa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="yaa"
+                android:onClick="play"
+                android:text="ی" />
+
+            <Button
+                android:id="@+id/hamza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="hamza"
+                android:onClick="play"
+                android:text="ء" />
+
+            <Button
+                android:id="@+id/hhaa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="hhaa"
+                android:onClick="play"
+                android:text="ھ" />
+
+            <Button
+                android:id="@+id/wao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="wao"
+                android:onClick="play"
+                android:text="و" />
+
+            <Button
+                android:id="@+id/noon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                style="@style/btnStyleGenoa"
+                android:contentDescription="noon"
+                android:onClick="play"
+                android:text="ن" />
+
+       	</TableRow>
+       	
+        <TableRow 
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+            
+        </TableRow>
+        
+
+    </TableLayout>
+</RelativeLayout>

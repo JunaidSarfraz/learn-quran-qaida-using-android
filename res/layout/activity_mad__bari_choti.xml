@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mad_Bari_choti" 
+    android:background="@drawable/background">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scrollbarSize="2000dp" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:stretchColumns="2" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <Button
+                        android:id="@+id/yasha"
+                        style="@style/btnStyleGenoa"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_button"
+                        android:text="یَشَآءُ" />
+
+                    <Button
+                        android:id="@+id/duaeena"
+                        style="@style/btnStyleGenoa"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_button"
+                        android:text="دُعَآءِ" />
+
+                    <Button
+                        android:id="@+id/fi_abaiena"
+                        style="@style/btnStyleGenoa"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_button"
+                        android:text="فِیْ اٰبَآئِنَا" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1" >
+
+                    <Button
+                        android:id="@+id/kaafha"
+                        style="@style/btnStyleGenoa"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/round_button"
+                        android:text="کَآفَّۃّ" />
+
+                    <Button
+                        android:id="@+id/haaja"
+                        style="@style/btnStyleGenoa"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/round_button"
+                        android:text="حَآجَّہٗ" />
+
+                    <Button
+                        android:id="@+id/aalana"
+                        style="@style/btnStyleGenoa"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/round_button"
+                        android:text="آلئٰنَ" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1" >
+
+                    <Button
+                        android:id="@+id/alhmdolila"
+                        style="@style/btnStyleGenoa"
+                        android:layout_width="180dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/round_button"
+                        android:text="اَلْحَمْدُ لِلّٰہِ رَبِّ الْعٰالمِیْنَ" />
+
+                    <Button
+                        android:id="@+id/anaas"
+                        style="@style/btnStyleGenoa"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/round_button"
+                        android:text="اَلنَّاسِ" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</RelativeLayout>
+    

@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <TableRow
+            	android:id="@+id/tableRow1"
+           		android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:stretchColumns="2" >
+
+            <Button
+                android:id="@+id/hamza_zabar"
+                style="@style/btnStyleGenoa"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/round_button"
+                android:text="ل" />
+
+            <Button
+                android:id="@+id/alif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+				style="@style/btnStyleGenoa"
+                android:text="ا" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:stretchColumns="2"  >
+
+            <Button
+                android:id="@+id/aein_do_zabar"
+                style="@style/btnStyleGenoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اَلّٰلھُمَّ"/>
+                
+           <Button
+               android:id="@+id/button1"
+               style="@style/btnStyleGenoa"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/round_button"
+               android:text="اَلّٰلہُ" />
+
+            <Button
+                android:id="@+id/hamza_zair"
+                style="@style/btnStyleGenoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                android:text="مَالِکِ" />
+
+            <Button
+                android:id="@+id/hamza_do_zabar"
+                 style="@style/btnStyleGenoa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_button"
+                         android:text="قَالَ"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:stretchColumns="2" >
+
+            <Button
+                android:id="@+id/hamza_do_zair"
+                style="@style/btnStyleGenoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="حَاسِدٍ" />
+
+            <Button
+                android:id="@+id/hamza_khara_zair"
+                style="@style/btnStyleGenoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="اِیّٰاکَ" />
+
+            <Button
+                android:id="@+id/hamza_khara_zabar"
+                style="@style/btnStyleGenoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                android:text="ظَاھِرٌ" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="باریک الف کی مشق"
+                android:textAppearance="?android:attr/textAppearanceLarge" 
+                android:gravity="right"
+                />
+
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="0dp"
+                android:stretchColumns="2" >
+
+             <Button
+                 android:id="@+id/aein_do_zair"
+                 style="@style/btnStyleGenoa"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:text="رَحْمَۃُالّٰلہِ" />
+
+             <Button
+                 android:id="@+id/aein_do_pesh"
+                style="@style/btnStyleGenoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:text="قُلْ ھُوَ اَلّٰلہُ" />
+
+             <TextView
+                 android:id="@+id/TextView01"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:gravity="right"
+                 android:text="موٹے الف کی مشق"
+                 android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </TableRow>
+        
+          <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="1dp"
+                android:stretchColumns="2" >
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

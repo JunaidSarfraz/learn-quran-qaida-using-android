@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/hamza_khara_zair"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/hamza_zair"
+            android:layout_below="@+id/hamza_zair"
+            android:text="ءٖ" />
+
+        <Button
+            android:id="@+id/hamza_do_zabar"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hamza_zabar"
+            android:layout_marginTop="42dp"
+            android:layout_toRightOf="@+id/button1"
+            android:text="ءً" />
+
+        <Button
+            android:id="@+id/hamza_khara_zabar"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hamza_zabar"
+            android:layout_toRightOf="@+id/button1"
+            android:text="ءٰ" />
+
+        <Button
+            android:id="@+id/hamza_ulta_pesh"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hamza_khara_zair"
+            android:layout_alignBottom="@+id/hamza_khara_zair"
+            android:layout_alignLeft="@+id/hamza_pesh"
+            android:text="ءٗ" />
+
+        <Button
+            android:id="@+id/hamza_do_zair"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/hamza_khara_zair"
+            android:layout_below="@+id/hamza_khara_zair"
+            android:text="ءٍ" />
+
+        <Button
+            android:id="@+id/button11"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button1"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_toRightOf="@+id/aein_ulta_pesh"
+            android:text="ع" />
+
+        <Button
+            android:id="@+id/aein_do_zabar"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/aein_do_zair"
+            android:layout_alignBottom="@+id/aein_do_zair"
+            android:layout_alignLeft="@+id/aein_khara_zabar"
+            android:text="عً" />
+
+        <Button
+            android:id="@+id/aein_khara_zabar"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/aein_do_zabar"
+            android:layout_alignLeft="@+id/aein_zabar"
+            android:text="عٰ" />
+
+        <Button
+            android:id="@+id/aein_do_zair"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hamza_do_zabar"
+            android:layout_alignBottom="@+id/hamza_do_zabar"
+            android:layout_toLeftOf="@+id/aein_do_zabar"
+            android:text="عٍ" />
+
+        <Button
+            android:id="@+id/aein_khara_zair"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/aein_khara_zabar"
+            android:layout_alignBottom="@+id/aein_khara_zabar"
+            android:layout_alignLeft="@+id/aein_do_zair"
+            android:text="عٖ" />
+
+        <Button
+            android:id="@+id/aein_pesh"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/aein_ulta_pesh"
+            android:layout_toLeftOf="@+id/button11"
+            android:text="عُ" />
+
+        <Button
+            android:id="@+id/aein_zair"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/aein_ulta_pesh"
+            android:layout_toRightOf="@+id/aein_ulta_pesh"
+            android:text="عِ" />
+
+        <Button
+            android:id="@+id/aein_zabar"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/aein_ulta_pesh"
+            android:layout_toRightOf="@+id/aein_zair"
+            android:text="عَ" />
+
+        <Button
+            android:id="@+id/aein_do_pesh"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hamza_do_zair"
+            android:layout_alignBottom="@+id/hamza_do_zair"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="79dp"
+            android:text="عُٗ" />
+
+        <Button
+            android:id="@+id/aein_ulta_pesh"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/aein_do_pesh"
+            android:layout_alignLeft="@+id/aein_do_pesh"
+            android:text="عٗ" />
+
+        <Button
+            android:id="@+id/hamza_do_pesh"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hamza_do_zair"
+            android:layout_alignBottom="@+id/hamza_do_zair"
+            android:layout_toLeftOf="@+id/hamza_do_zair"
+            android:text="ءُٗ" />
+
+        <Button
+            android:id="@+id/hamza_zabar"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/button1"
+            android:layout_marginRight="89dp"
+            android:text="ءَ" />
+
+        <Button
+            android:id="@+id/hamza_zair"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            android:layout_toLeftOf="@+id/hamza_zabar"
+            android:text="ءِ" />
+
+        <Button
+            android:id="@+id/hamza_pesh"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/hamza_khara_zair"
+            android:layout_toLeftOf="@+id/hamza_khara_zair"
+            android:text="ءُ" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/btnStyleGenoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="34dp"
+            android:layout_toRightOf="@+id/hamza_pesh"
+            android:text="ء" />
+
+    </RelativeLayout>
+
+</LinearLayout>
