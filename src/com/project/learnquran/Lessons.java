@@ -42,6 +42,7 @@ public class Lessons extends Activity {
 				name+=".mp3";
 				afd=getAssets().openFd(name);
 				mp.setDataSource(afd.getFileDescriptor(),afd.getStartOffset(),afd.getLength());
+				mp.prepare();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
