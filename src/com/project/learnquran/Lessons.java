@@ -6,8 +6,10 @@ import java.net.URI;
 import android.R.string;
 import android.app.Activity;
 import android.app.FragmentManager;
+import android.content.Context;
 import android.content.res.AssetFileDescriptor;
 import android.media.AudioAttributes;
+import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
@@ -33,7 +35,10 @@ public class Lessons extends Activity {
 	}
     public static MediaPlayer mp = null;
 	public void play(View v) {
-		Toast.makeText(getApplicationContext(), v.getContentDescription() +"" , Toast.LENGTH_SHORT).show();
+		//Toast.makeText(getApplicationContext(), v.getContentDescription() +"" , Toast.LENGTH_SHORT).show();
+		AudioManager audioManager = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);
+		// For example to set the volume of played media to maximum.
+		audioManager.setStreamVolume (AudioManager.STREAM_MUSIC, audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC),0);
 		if(mp == null){
 			mp = new MediaPlayer();
 			AssetFileDescriptor afd;

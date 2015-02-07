@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/round_button"
                 style="@style/btnStyleGenoa"
-                android:contentDescription="Haa"
+                android:contentDescription="haa"
                 android:text="ح" 
                 android:onClick="play" />
 
@@ -169,8 +169,8 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/round_button"
                 style="@style/btnStyleGenoa"
-                android:contentDescription="zaa"
-                android:onClick="zuaa"
+                android:contentDescription="zuaa"
+                android:onClick="play"
                 android:text="ظ" />
 
             <Button
