@@ -14,6 +14,7 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class Lessons extends Activity {
@@ -35,7 +36,8 @@ public class Lessons extends Activity {
 	}
     public static MediaPlayer mp = null;
 	public void play(View v) {
-		//Toast.makeText(getApplicationContext(), v.getContentDescription() +"" , Toast.LENGTH_SHORT).show();
+		Toast.makeText(getApplicationContext(), v.getContentDescription() +"" , Toast.LENGTH_SHORT).show();
+		((Button)findViewById(v.getId())).setBackgroundColor(BIND_IMPORTANT);
 		AudioManager audioManager = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);
 		// For example to set the volume of played media to maximum.
 		audioManager.setStreamVolume (AudioManager.STREAM_MUSIC, audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC),0);
