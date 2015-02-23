@@ -211,12 +211,12 @@
 
             <Button
                 android:id="@+id/laam"
+                style="@style/btnStyleGenoa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/btnStyleGenoa"
                 android:contentDescription="laam_khara_zabar"
                 android:onClick="play"
-                android:text="لً" />
+                android:text="لٰ" />
 
             <Button
                 android:id="@+id/kaaf"
@@ -247,12 +247,12 @@
 
             <Button
                 android:id="@+id/ghain"
+                style="@style/btnStyleGenoa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/btnStyleGenoa"
                 android:contentDescription="ghain_khara_zabar"
                 android:onClick="play"
-                android:text="غً" />
+                android:text="غٰ" />
 
         </TableRow>
         <TableRow
@@ -284,7 +284,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@style/btnStyleGenoa"
-                android:contentDescription="khaa_khara_zabar"
+                android:contentDescription="hhaa_khara_zabar"
                 android:onClick="play"
                 android:text="ھٰ" />
 
