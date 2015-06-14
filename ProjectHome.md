@@ -1,0 +1,1 @@
+This is a Android Application teaches you Qurani Qaida.
